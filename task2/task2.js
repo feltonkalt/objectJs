@@ -11,7 +11,7 @@ expenses.forEach(element => {
         totalPrice += element.amount;
         
     }
-    else{
+    if (totalPrice == 0){
         alert('Такой категории нет')
     }
 });
